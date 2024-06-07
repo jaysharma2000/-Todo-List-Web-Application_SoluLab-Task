@@ -1,6 +1,7 @@
 Todo-List Web Application.
 
 This is a simple and user-friendly Todo List web application built with React.js. It allows users to manage their tasks efficiently by adding, viewing, editing, and deleting tasks. The application uses local storage to persist tasks between sessions, ensuring that your task list is always available.
+
 Features
 
    1. Add Tasks: Users can add new tasks with a title and description.
@@ -9,6 +10,7 @@ Features
    4. Delete Tasks: Users can delete tasks that are no longer needed.
    5. Search Tasks: A search functionality allows users to filter tasks based on a search string.
    6. Persist Data: Tasks are saved in local storage, so they persist even after the browser is closed and reopened.
+      
 
 Technologies Used
 
