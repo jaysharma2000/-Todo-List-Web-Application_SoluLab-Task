@@ -1,0 +1,149 @@
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+  }
+
+  body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  }
+  
+  input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+
+  .heading{
+    box-sizing: border-box;
+    margin-top: -10px;
+    background-color: rgb(62, 62, 62);
+    color: rgb(197, 198, 198);
+    padding: 5px;
+    
+  }
+
+  .task-title-add{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(24, 24, 24);
+    padding: 7px;
+  }
+  .task-title-add:focus {
+    outline: none;
+    border: 2px solid #0b0a0a; 
+    background-color: #ffffff; 
+  }
+
+ .task-title-dis{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(24, 24, 24);
+    padding: 7px;
+ }
+
+ .task-title-dis:focus {
+    outline: none;
+    border: 2px solid #0b0a0a; 
+    background-color: #ffffff; 
+  }
+
+  .task-button{
+    border-radius: 5px;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    padding: 6px 12px;
+    color: rgb(13, 13, 14);
+    border: none;
+    border: 1px solid black;
+  }
+
+  .task-button:hover{
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  }
+  .search-box{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(24, 24, 24);
+    padding: 7px;
+  }
+
+  .search-button{
+    border-radius: 5px;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    padding: 6px 12px;
+    color: rgb(13, 13, 14);
+    border: none;
+    border: 1px solid black;
+    font-weight: 500;
+  }
+
+  .search-button:hover{
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  }
+
+  .add-task{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+  }
+
+  .delete-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    padding: 8px 13px;
+    color: rgb(13, 13, 14);
+    border: none;
+    border: 1px solid black;
+    font-weight: 500;
+
+  }
+  .delete-btn:hover{
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  }
+
+  .edit-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    padding: 8px 13px;
+    color: rgb(13, 13, 14);
+    border: none;
+    border: 1px solid black;
+    font-weight: 500;
+    margin-left: 40px;
+  }
+
+  .edit-btn:hover{
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  }
+  .task-discription1{
+    width: 500px;
+  }
+  
