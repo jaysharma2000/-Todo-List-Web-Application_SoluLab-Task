@@ -29,7 +29,7 @@ const TodoForm = ({ addTask, editTask, taskToEdit, setTaskToEdit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='add-task-form'>
       <input 
         type="text" 
         placeholder="Title" 

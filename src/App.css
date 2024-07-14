@@ -146,4 +146,56 @@ body, html, #root {
   .task-discription1{
     width: 500px;
   }
+
+  @media screen and (max-width: 380px) {
+    .task-discription1{
+      width: 330px;
+      line-height: 22px;
+    }
+    .delete-btn{
+      margin-left: 6px;
   
+    }
+    .edit-btn{
+      margin: auto;
+      /* margin-left: 30px; */
+    }
+    .add-task{
+      gap: 5px;
+    }
+    .buttons{
+      margin-top: 1px;
+      margin-bottom: 20px;
+    }
+    .App{
+      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    }
+
+    .add-task-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .task-title-dis{
+      width: 200px;
+
+    }
+    .task-title-add{
+      width: 200px;
+    }
+  }
+
+  @media screen  and (max-width: 478px){
+    body{
+      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+      width: 100%;
+    }
+
+    
+      .App{
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+      }
+    
+  }

@@ -8,7 +8,7 @@ const TodoItem = ({ task, setTaskToEdit, deleteTask }) => {
             <p className='task-discription1'>{task.description}</p>
         </div>
 
-        <div>
+        <div className='buttons'>
             <button className='edit-btn' onClick={() => setTaskToEdit(task)}>Edit</button>
             <button className='delete-btn' onClick={() => deleteTask(task.title)}>Delete</button>
         </div>
