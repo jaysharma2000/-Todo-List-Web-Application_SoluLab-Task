@@ -17,5 +17,14 @@ Technologies Used
    1. React.js: A JavaScript library for building user interfaces.
    2. HTML: The standard markup language for creating web pages.
    3. CSS: A style sheet language used for describing the presentation of a document written in HTML.
+      
 
+## Setup
 
+Follow these steps to get the project running on your local machine.
+
+Step 1 - Install Node.js (version 14.x or later).
+Step 2 - Clone the repository - https://github.com/jaysharma2000/Todo-List-Web-Application.git
+Step 3 - cd Todo-List-Web-Application
+Step 4 - Install dependencies - npm install
+Step 5 - Start the development server - npm run dev
